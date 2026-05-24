@@ -6,5 +6,11 @@
   "permissions": ["storage"],
   "chrome_url_overrides": {
     "newtab": "index.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "waigdt@mustansir.dev",
+      "strict_min_version": "109.0"
+    }
   }
 }
