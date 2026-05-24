@@ -206,7 +206,7 @@ body.dark .task.done label {
   background: rgba(248,248,248,0.92);
 }
 
-/* Delete button */
+
 .delete-btn {
   opacity: 0;
   background: none;
@@ -237,7 +237,23 @@ body.dark .delete-btn:hover {
   color: #e74c3c;
 }
 
-/* Expired tasks */
+.rename-input {
+  font-size: 1.05rem;
+  font-family: 'Delius', cursive;
+  color: #222;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  outline: none;
+  flex: 1;
+  padding: 0;
+}
+
+body.dark .rename-input {
+  color: #eee;
+  border-bottom-color: #555;
+}
+
 .task.expired {
   opacity: 0.4;
   cursor: not-allowed;

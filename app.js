@@ -75,6 +75,31 @@ function createTask(text, done = false) {
   deleteBtn.className = 'delete-btn';
   deleteBtn.innerHTML = trashSVG;
 
+  label.addEventListener('dblclick', (e) => {
+  e.stopPropagation();
+  const input = document.createElement('input');
+  input.type = 'text';
+  input.value = label.textContent;
+  input.className = 'rename-input';
+  task.replaceChild(input, label);
+  input.focus();
+  input.select();
+
+  function confirm() {
+    if (input.value.trim() !== '') {
+      label.textContent = input.value.trim();
+    }
+    task.replaceChild(label, input);
+    saveTasks();
+  }
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') confirm();
+    if (e.key === 'Escape') task.replaceChild(label, input);
+  });
+
+  input.addEventListener('blur', confirm);
+});
   deleteBtn.addEventListener('click', () => {
     const wasCompleted = task.classList.contains('done');
 
