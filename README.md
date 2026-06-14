@@ -4,7 +4,7 @@
 
 A clean, distraction-free new tab page that keeps your daily tasks front and center and focuses on accounability. No accounts, no sync, no tracking. Just your tasks and you to blame.
 
-![waigdt screenshot](assets/screenshot3.png)
+![waigdt screenshot](assets/Screenshot3.png)
 
 ---
 
@@ -34,7 +34,7 @@ A clean, distraction-free new tab page that keeps your daily tasks front and cen
 
 | History | Custom background |
 |---------|------------------|
-| ![History sidebar](assets/screenshot1.png) | ![Custom background](assets/screenshot2.png) |
+| ![History sidebar](assets/Screenshot1.png) | ![Custom background](assets/Screenshot2.png) |
 
 ---
 
