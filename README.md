@@ -17,7 +17,7 @@ A clean, distraction-free new tab page that keeps your daily tasks front and cen
 | Browser | Link |
 |---------|------|
 | Chrome | *Coming soon* |
-| Firefox | *Coming soon* |
+| Firefox | **https://addons.mozilla.org/en-US/firefox/addon/waigdt/** |
 
 ---
 
