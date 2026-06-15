@@ -24,7 +24,7 @@ A clean, distraction-free new tab page that keeps your daily tasks front and cen
 ## Features
 
 - **Daily tasks** - add tasks, check them off, delete them
-- **Auto archive** - tasks archive automatically at midnight so every day starts fresh
+- **Auto archive** - tasks archive automatically at midnight leaving you accountable to your laziness
 - **History** - review past days and see your completion rate
 - **Live clock** - 24h clock that adapts to your task list
 - **Dark mode** - clean light and dark theme
