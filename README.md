@@ -6,7 +6,7 @@ A clean, distraction-free new tab page that keeps your daily tasks front and cen
 
 
 
-<video src="assets/demo.mp4" autoplay loop muted playsinline width="100%"></video>
+![Demo](assets/demo.gif)
 
 
 
